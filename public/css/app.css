@@ -1,0 +1,27 @@
+.btn-peach {
+    color: #fff;
+    background-color: #f7976a;
+    border-color: #f7976a;
+    transition: box-shadow 0.3s ease; /* Menambahkan efek transisi pada box-shadow */
+}
+
+.btn-peach:focus,
+.btn-peach:hover,
+.btn-peach:active,
+.btn-peach:not(:disabled):not(.disabled):active:focus,
+.btn-peach:not(:disabled):not(.disabled).active:focus,
+.btn-peach:not(:disabled):not(.disabled):active,
+.btn-peach:not(:disabled):not(.disabled).active {
+    background-color: #f7976a;
+    border-color: #f7976a;
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25); /* Efek box-shadow untuk membuat tombol redup saat ditekan */
+}
+
+.btn-olive {
+    color: #fff;
+    background-color: #3d9970;
+    border-color: #3d9970;
+}
+
+/* "btn btn-olive bg-gradient-olive" */
